@@ -13,10 +13,10 @@ function Top() {
 	const state = useContext(context);
 	return (
 		<div className='top'>
-			<NavLink to='/'>
-				<button className='inclined-button' autoFocus>
+			<NavLink to='/' className='inclined-button'> 
+				{/* <button className='inclined-button' autoFocus> */}
 					HOME
-				</button>
+				{/* </button> */}
 			</NavLink>
 			{state.state ? (
 				<NavLink to='/news'>
